@@ -10,8 +10,10 @@
   "dependencies": {
     "@material-ui/core": "^3.6.0",
     "eslint": "^5.9.0",
+    "jss": "^9.8.7",
     "next": "^7.0.2",
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "react-jss": "^8.6.1"
   }
 }
