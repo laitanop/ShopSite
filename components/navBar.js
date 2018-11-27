@@ -1,12 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
-import AppBar from '@material-ui/core/AppBar'
+
 import Toolbar from '@material-ui/core/Toolbar'
-import Typography from '@material-ui/core/Typography'
-import Button from '@material-ui/core/Button'
-import IconButton from '@material-ui/core/IconButton'
-import MenuIcon from '@material-ui/icons/Menu'
+
+import Buttons from './common/Buttons'
 
 const styles = {
   root: {
@@ -36,18 +34,16 @@ function NavBar (props) {
             justifyContent: 'center'
           }}
         >
-
-          <Button color='inherit'>Inicio</Button>
-          <Button color='inherit'>Nosotros</Button>
-          <Button color='inherit'>Cataloago</Button>
-
-          <Button color='inherit'>Contacto</Button>
-          <Button
+          <Buttons text='Inicio' />
+          <Buttons text='Nosotros' />
+          <Buttons text='Catalogo' />
+          <Buttons text='Contacto' />
+          <Buttons
+            text='Comprar'
             variant='contained'
             style={{ backgroundColor: '#de137a', color: '#fff' }}
-          >
-            Comprar
-          </Button>
+          />
+
         </Toolbar>
       </div>
     </div>

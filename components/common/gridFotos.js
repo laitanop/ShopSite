@@ -2,10 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
 import Grid from '@material-ui/core/Grid'
-import FormLabel from '@material-ui/core/FormLabel'
-import FormControlLabel from '@material-ui/core/FormControlLabel'
-import RadioGroup from '@material-ui/core/RadioGroup'
-import Radio from '@material-ui/core/Radio'
+
 import Paper from '@material-ui/core/Paper'
 
 const styles = theme => ({
@@ -21,7 +18,6 @@ const styles = theme => ({
     padding: theme.spacing.unit * 2
   }
 })
-const renderImages = ['gridfoto1.jpg', 'gridfoto2.jpg', 'gridfoto3.jpg']
 
 class GridFotos extends React.Component {
   render () {
@@ -36,18 +32,27 @@ class GridFotos extends React.Component {
             justify='center'
             spacing={40}
           >
-            {renderImages.map(value => (
-              <Grid key={value} item>
+            {this.props.renderImages.map(value => (
+              <Grid key={value.id} item>
 
                 <Paper className={classes.paper} elevation={24}>
                   {' '}
                   <img
-                    src={`/static/${value}`}
+                    src={`/static/${value.images}`}
                     alt='foto bisuteria'
                     height='332'
                     width='332'
                   />
                 </Paper>
+                <div
+                  style={{
+                    marginTop: '30px',
+                    fontSize: '35px',
+                    textAlign: 'center'
+                  }}
+                >
+                  {value.description}
+                </div>
               </Grid>
             ))}
           </Grid>

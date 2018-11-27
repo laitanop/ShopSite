@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
-import GridFotos from './gridFotos'
+import GridFotos from '../common/gridFotos'
 
 const styles = {
   root: {
@@ -34,7 +34,22 @@ function SeccionBanner (props) {
       >
         Hermosa
       </div>
-      <GridFotos />
+      <GridFotos
+        renderImages={[
+          {
+            id: 1,
+            images: 'gridfoto1.jpg'
+          },
+          {
+            id: 2,
+            images: 'gridfoto2.jpg'
+          },
+          {
+            id: 3,
+            images: 'gridfoto3.jpg'
+          }
+        ]}
+      />
 
       <div
         style={{
