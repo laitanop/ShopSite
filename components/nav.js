@@ -32,10 +32,22 @@ function Nav (props) {
           <SocialIconButton
             link='https://www.facebook.com/laurasplaceins/'
             icon='fab fa-facebook-square fa-2x'
+            style={{
+              color: '#fff',
+              hover: {
+                color: '#de137a'
+              }
+            }}
           />&nbsp; &nbsp;
           <SocialIconButton
             link='https://www.instagram.com/laurasplaceins/?hl=en'
             icon='fab fa-instagram fa-2x'
+            style={{
+              color: '#fff',
+              '&:hover': {
+                color: '#de137a'
+              }
+            }}
           />&nbsp; &nbsp;
 
           <ShopCart />

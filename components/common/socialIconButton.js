@@ -1,7 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 import { withStyles } from '@material-ui/core/styles'
-import Button from '@material-ui/core/Button'
 
 const styles = theme => ({
   button: {
@@ -17,11 +16,11 @@ const styles = theme => ({
 })
 
 function SocialIconButton (props) {
-  const { classes } = props
+  const { classes, style } = props
   return (
     <div>
       <a href={props.link} target='_blank'>
-        <span className={classes.button}>
+        <span style={style}>
 
           <i className={props.icon} />
         </span>
