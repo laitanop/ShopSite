@@ -2,6 +2,9 @@ import React from 'react'
 import Link from 'next/link'
 import Head from '../components/head'
 import Nav from '../components/nav'
+import NavBar from '../components/navBar'
+import SeccionBanner from '../components/seccionBanner/seccionBanner'
+import Backflowers from '../components/seccionBanner2/backflowers'
 
 const Home = () => (
   <div>
@@ -9,34 +12,20 @@ const Home = () => (
     <Nav />
 
     <div className='hero'>
-      <h1 className='title'>Welcome to Next!</h1>
-      <p className='description'>
-        To get started, edit <code>pages/index.js</code> and save to reload.
-      </p>
 
-      <div className='row'>
-        <Link href='https://github.com/zeit/next.js#getting-started'>
-          <a className='card'>
-            <h3>Getting Started →</h3>
-            <p>Learn more about Next on Github and in their examples</p>
-          </a>
-        </Link>
-        <Link href='https://open.segment.com/create-next-app'>
-          <a className='card'>
-            <h3>Examples →</h3>
-            <p>
-              Find other example boilerplates on the{' '}
-              <code>create-next-app</code> site
-            </p>
-          </a>
-        </Link>
-        <Link href='https://github.com/segmentio/create-next-app'>
-          <a className='card'>
-            <h3>Create Next App →</h3>
-            <p>Was this tool helpful? Let us know how we can improve it</p>
-          </a>
-        </Link>
-      </div>
+      <h1 className='title'>
+        {' '}
+        <img
+          src='/static/logo.svg'
+          alt='Smiley face'
+          height='150'
+          width='150'
+        />
+      </h1>
+      <NavBar />
+      <SeccionBanner />
+      <Backflowers />
+
     </div>
 
     <style jsx>{`
@@ -47,7 +36,7 @@ const Home = () => (
       .title {
         margin: 0;
         width: 100%;
-        padding-top: 80px;
+        // padding-top: 80px;
         line-height: 1.15;
         font-size: 48px;
       }

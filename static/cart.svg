@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="183px" height="181px" viewBox="0 0 183 181" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group" transform="translate(14.000000, 16.000000)" fill-rule="nonzero">
+            <polygon id="Rectangle" fill="#DE137A" points="17 55 143 55 159.681641 155 0.16672622 155"></polygon>
+            <path d="M35.484773,69 C29.1998788,23 44.3716211,0 81,0 C117.628379,0 132.800121,23 126.515227,69" id="Line-4" stroke="#8F4D99" stroke-width="7" stroke-linecap="square"></path>
+            <g id="Group-2" transform="translate(23.000000, 55.000000)">
+                <ellipse id="Oval" fill="#8F4D99" cx="9" cy="21.5" rx="6" ry="6.5"></ellipse>
+                <ellipse id="Oval" fill="#8F4D99" cx="19" cy="21.5" rx="6" ry="6.5"></ellipse>
+                <ellipse id="Oval" fill="#8F4D99" cx="12" cy="6.5" rx="6" ry="6.5"></ellipse>
+                <ellipse id="Oval" fill="#8F4D99" cx="22" cy="12.5" rx="6" ry="6.5"></ellipse>
+                <ellipse id="Oval" fill="#8F4D99" cx="6" cy="12.5" rx="6" ry="6.5"></ellipse>
+                <ellipse id="Oval" stroke="#FFFFFF" fill="#FFFFFF" cx="14" cy="15.5" rx="6" ry="6.5"></ellipse>
+            </g>
+            <g id="Group-2" transform="translate(114.000000, 55.000000)">
+                <ellipse id="Oval" fill="#8F4D99" cx="9" cy="21.5" rx="6" ry="6.5"></ellipse>
+                <ellipse id="Oval" fill="#8F4D99" cx="19" cy="21.5" rx="6" ry="6.5"></ellipse>
+                <ellipse id="Oval" fill="#8F4D99" cx="12" cy="6.5" rx="6" ry="6.5"></ellipse>
+                <ellipse id="Oval" fill="#8F4D99" cx="22" cy="12.5" rx="6" ry="6.5"></ellipse>
+                <ellipse id="Oval" fill="#8F4D99" cx="6" cy="12.5" rx="6" ry="6.5"></ellipse>
+                <ellipse id="Oval" stroke="#FFFFFF" fill="#FFFFFF" cx="14" cy="15.5" rx="6" ry="6.5"></ellipse>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="221px" height="160px" viewBox="0 0 221 160" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.4 (67378) - http://www.bohemiancoding.com/sketch -->
+    <title>Artboard</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Artboard" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-5" transform="translate(12.000000, 14.000000)">
+            <g id="Group-4">
+                <g id="Group-3">
+                    <g id="Group">
+                        <text id="LAURA´" font-family="Athelas-Regular, Athelas" font-size="43" font-weight="normal">
+                            <tspan x="0" y="38" fill="#DE137A">LAURA´</tspan>
+                            <tspan x="165.206" y="38" fill="#BD10E0"></tspan>
+                        </text>
+                        <text id="S" font-family="Athelas-Regular, Athelas" font-size="27" font-weight="normal" fill="#DE137A">
+                            <tspan x="166" y="24">S</tspan>
+                        </text>
+                        <text id="PLACE" font-family="Athelas-Regular, Athelas" font-size="60" font-weight="normal" fill="#8F4D99">
+                            <tspan x="0" y="97">PLACE</tspan>
+                        </text>
+                        <g id="Group-6" transform="translate(121.000000, 68.000000)" fill-rule="nonzero">
+                            <circle id="Oval" fill="#FABE2C" cx="10" cy="10" r="10"></circle>
+                            <circle id="Oval" stroke="#FFFFFF" fill="#FFFFFF" cx="12" cy="5" r="2"></circle>
+                            <path d="M6.5,15.5 C8.1620693,15.7862256 9.3260738,15.948681 9.99201348,15.9873661 C11.5459901,16.0776382 12.7004173,15.9151828 13.4552951,15.5 C14.6954149,14.8179341 15.7103165,12.9846008 16.5,10" id="Line" stroke="#FFFFFF" stroke-linecap="square"></path>
+                            <path d="M3.5,10 L6.5,9.5" id="Line-2" stroke="#FFFFFF" stroke-linecap="square"></path>
+                        </g>
+                    </g>
+                    <g id="Group-2" transform="translate(174.000000, 77.000000)" fill-rule="nonzero">
+                        <circle id="Oval" fill="#DE137A" cx="7" cy="17" r="5"></circle>
+                        <circle id="Oval" fill="#DE137A" cx="15" cy="17" r="5"></circle>
+                        <circle id="Oval" fill="#DE137A" cx="10" cy="5" r="5"></circle>
+                        <circle id="Oval" fill="#DE137A" cx="17" cy="10" r="5"></circle>
+                        <circle id="Oval" fill="#DE137A" cx="5" cy="10" r="5"></circle>
+                        <circle id="Oval" stroke="#FFFFFF" fill="#FFFFFF" cx="11" cy="12" r="5"></circle>
+                    </g>
+                </g>
+                <path d="M97.7198826,121.352349 C145.588082,121.352349 184.392924,110.262768 184.392924,96.5830757 C184.392924,82.9033837 201.465395,121.352349 97.7198826,116.921233 C-6.02562967,112.490116 11.046841,82.9033837 11.046841,96.5830757 C11.046841,110.262768 49.8516835,121.352349 97.7198826,121.352349 Z" id="Oval" fill="#8F4D99" fill-rule="nonzero"></path>
+            </g>
+        </g>
+    </g>
+</svg>
