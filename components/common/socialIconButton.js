@@ -4,23 +4,20 @@ import { withStyles } from '@material-ui/core/styles'
 
 const styles = theme => ({
   button: {
-    margin: theme.spacing.unit,
     color: '#fff',
     '&:hover': {
       color: '#de137a'
     }
-  },
-  input: {
-    display: 'none'
   }
 })
 
 function SocialIconButton (props) {
   const { classes, style } = props
+  console.log('mis estilos', style)
   return (
     <div>
-      <a href={props.link} target='_blank'>
-        <span style={style}>
+      <a href={props.link} target='_blank' style={style}>
+        <span>
 
           <i className={props.icon} />
         </span>

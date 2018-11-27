@@ -32,9 +32,10 @@ function Nav (props) {
           <SocialIconButton
             link='https://www.facebook.com/laurasplaceins/'
             icon='fab fa-facebook-square fa-2x'
+            hover='red'
             style={{
               color: '#fff',
-              hover: {
+              'i:hover': {
                 color: '#de137a'
               }
             }}
@@ -44,7 +45,7 @@ function Nav (props) {
             icon='fab fa-instagram fa-2x'
             style={{
               color: '#fff',
-              '&:hover': {
+              'a:hover': {
                 color: '#de137a'
               }
             }}
