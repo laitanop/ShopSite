@@ -13,7 +13,7 @@ const styles = theme => ({
 
 function SocialIconButton (props) {
   const { classes, style } = props
-  console.log('mis estilos', style)
+
   return (
     <div>
       <a href={props.link} target='_blank' style={style}>

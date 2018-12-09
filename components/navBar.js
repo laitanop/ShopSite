@@ -41,7 +41,8 @@ function NavBar (props) {
           <Buttons
             text='Comprar'
             variant='contained'
-            style={{ backgroundColor: '#de137a', color: '#fff' }}
+            backgroundColor='#de137a'
+            color='#fff'
           />
 
         </Toolbar>
