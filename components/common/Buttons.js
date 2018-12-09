@@ -6,13 +6,17 @@ import styled from 'styled-components'
 
 const StyledButton = styled(Button)`
   && {
+    text-transform: capitalize;
     background-color: ${props => props.backgroundColor};
     border-radius: 3px;
     border: 0;
     color: ${props => props.color};
-    height: 48px;
-    padding: 0 30px;
-   
+    /* height: 8px;
+    padding: 0 30px; */
+  }
+  &&:hover {
+    background-color: ${props => props.hoverBackgroundColor};
+    color: ${props => props.hoverColor};
   }
 `
 
@@ -26,21 +30,29 @@ const styles = theme => ({
 })
 
 function Buttons (props) {
-  const { classes, text, variant, backgroundColor, color } = props
+  const {
+    text,
+    variant,
+    backgroundColor,
+    color,
+    link,
+    size,
+    hoverColor,
+    hoverBackgroundColor
+  } = props
   return (
     <div>
-      {/* <Button className={classes.button} variant={variant} style={style}>
-        {text}
-      </Button> */}
-
       <StyledButton
+        size={size}
+        href={link}
         variant={variant}
         backgroundColor={backgroundColor}
+        hoverBackgroundColor={hoverBackgroundColor}
+        hoverColor={hoverColor}
         color={color}
       >
         {text}
       </StyledButton>
-
     </div>
   )
 }
