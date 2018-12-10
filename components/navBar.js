@@ -22,16 +22,16 @@ const styles = {
 
 function NavBar (props) {
   const ButtonName = [
-    { id: 1, name: 'Home', link: '/', hoverColor: '#de137a' },
-    { id: 2, name: 'Nosotros', link: 'nosotros', hoverColor: '#de137a' },
-    { id: 3, name: 'Catalogo', link: 'catalogo', hoverColor: '#de137a' },
-    { id: 4, name: 'contacto', link: 'contacto', hoverColor: '#de137a' },
+    { id: 1, name: 'Home', link: '/', hovercolor: '#de137a' },
+    { id: 2, name: 'Nosotros', link: 'nosotros', hovercolor: '#de137a' },
+    // { id: 3, name: 'Catalogo', link: 'catalogo', hoverColor: '#de137a' },
+    { id: 4, name: 'contacto', link: 'contacto', hovercolor: '#de137a' },
     {
       id: 5,
-      name: 'comprar',
-      link: ' comprar',
+      name: 'Catalogo',
+      link: ' catalogo',
       variant: 'contained',
-      backgroundColor: '#de137a',
+      backgroundcolor: '#de137a',
       color: '#fff'
     }
   ]
@@ -50,14 +50,14 @@ function NavBar (props) {
         >
           {ButtonName.map(button => (
             <Buttons
-              id={button.id}
+              key={button.id}
               text={button.name}
               link={button.link}
-              hoverColor={button.hoverColor}
-              hoverBackgroundColor={button.hoverBackgroundColor}
+              hovercolor={button.hovercolor}
+              hoverbackgroundcolor={button.hoverbackgroundcolor}
               variant={button.variant}
               color={button.color}
-              backgroundColor={button.backgroundColor}
+              backgroundcolor={button.backgroundcolor}
             />
           ))}
         </Toolbar>

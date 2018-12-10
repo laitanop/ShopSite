@@ -25,7 +25,7 @@ function CatalagoCard (props) {
   return (
     <Grid container spacing={24}>
       {list.map(value => (
-        <Grid item xs={3}>
+        <Grid item xs={3} key={value.id}>
           <Card className={classes.card}>
             <CardActionArea>
               <CardMedia
@@ -49,7 +49,13 @@ function CatalagoCard (props) {
                 text='agregar al carro'
               />
 
-              <Buttons color='primary' size='small' text='ver detalle' />
+              <Buttons
+                color='primary'
+                size='small'
+                text='ver detalle'
+                // click={props.click}
+                link='item'
+              />
             </CardActions>
           </Card>
         </Grid>

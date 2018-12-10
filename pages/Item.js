@@ -5,8 +5,9 @@ import NavBar from '../components/navBar'
 
 import MainFooter from '../components/footer/MainFooter'
 import Logo from '../components/Logo'
+import Item from '../components/catalago/Item'
 
-const Item = () => (
+const ItemDescription = () => (
   <div>
     {/* <Head title='Home' /> */}
     <Nav />
@@ -14,10 +15,10 @@ const Item = () => (
     <div>
       <Logo />
       <NavBar />
-      item
+      <Item />
       <MainFooter />
     </div>
   </div>
 )
 
-export default Item
+export default ItemDescription

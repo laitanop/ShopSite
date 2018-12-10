@@ -11,7 +11,9 @@ const styles = theme => ({
     paddingBottom: theme.spacing.unit * 2
   }
 })
-
+function myItem () {
+  console.log('le estoy dando onclick')
+}
 function Catalago (props) {
   const list = [
     {
@@ -27,7 +29,7 @@ function Catalago (props) {
       title: 'perlas',
       subheader: 'subheader',
       text: 'texto',
-      price: '320.00',
+      price: '920.00',
       img: '/static/c2.jpg'
     },
     {
@@ -35,15 +37,15 @@ function Catalago (props) {
       title: 'collar ',
       subheader: 'subheader',
       text: 'texto',
-      price: '320.00',
+      price: '720.00',
       img: '/static/c3.jpg'
     },
     {
-      id: 3,
+      id: 4,
       title: 'collar ',
       subheader: 'subheader',
       text: 'texto',
-      price: '320.00',
+      price: '300.00',
       img: '/static/c4.jpg'
     }
   ]
@@ -51,13 +53,7 @@ function Catalago (props) {
 
   return (
     <div style={{ padding: 50 }}>
-      <CatalagoCard
-        list={list}
-        title='collar de perlas'
-        subheader='subheader'
-        text='text'
-        price='320.00'
-      />
+      <CatalagoCard list={list} click={myItem} />
     </div>
   )
 }
