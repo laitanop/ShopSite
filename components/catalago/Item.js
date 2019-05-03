@@ -18,32 +18,6 @@ const styles = theme => ({
 })
 
 function CenteredGrid (props) {
-  const list = [
-    {
-      id: 1,
-      img: '/static/c3.jpg'
-    },
-    {
-      id: 2,
-      img: '/static/c3.jpg'
-    },
-    {
-      id: 3,
-      img: '/static/c3.jpg'
-    },
-    {
-      id: 1,
-      img: '/static/c3.jpg'
-    },
-    {
-      id: 2,
-      img: '/static/c3.jpg'
-    },
-    {
-      id: 3,
-      img: '/static/c3.jpg'
-    }
-  ]
   const { classes } = props
 
   return (
@@ -59,18 +33,17 @@ function CenteredGrid (props) {
           <Grid container spacing={24} style={{ marginTop: 50 }}>
             <Grid item xs={2}>
               {/* grid start */}
-              {list.map(item => (
-                <Grid container spacing={24}>
-                  <Grid item xs={6}>
-                    <img
-                      src={item.img}
-                      alt='Smiley face'
-                      height='42'
-                      width='42'
-                    />
-                  </Grid>
+
+              <Grid container spacing={24}>
+                <Grid item xs={6}>
+                  <img
+                    src='/static/c3.jpg'
+                    alt='Smiley face'
+                    height='42'
+                    width='42'
+                  />
                 </Grid>
-              ))}
+              </Grid>
 
               {/* end grid  */}
             </Grid>

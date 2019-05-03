@@ -7,6 +7,7 @@ import CardActions from '@material-ui/core/CardActions'
 import CardContent from '@material-ui/core/CardContent'
 import CardMedia from '@material-ui/core/CardMedia'
 import Grid from '@material-ui/core/Grid'
+import Link from 'next/link'
 
 import Typography from '@material-ui/core/Typography'
 import Buttons from './Buttons'
@@ -21,7 +22,11 @@ const styles = {
 }
 
 function CatalagoCard (props) {
-  const { classes, title, text, price, list } = props
+  // function myItem () {
+  //   console.log('le estoy dando onclick')
+  // }
+  const id = 'item'
+  const { classes, title, text, price, list, click } = props
   return (
     <Grid container spacing={24}>
       {list.map(value => (
@@ -44,7 +49,7 @@ function CatalagoCard (props) {
             <CardActions>
               <Buttons
                 backgroundColor='#de137a'
-                color='#fff'
+                color='black'
                 size='small'
                 text='agregar al carro'
               />
@@ -53,9 +58,12 @@ function CatalagoCard (props) {
                 color='primary'
                 size='small'
                 text='ver detalle'
-                // click={props.click}
-                link='item'
+                // click={click}
+                // link='item'
               />
+              <Link as={`/catalogo/${id}`} href={`/post?title=${id}`}>
+                link
+              </Link>
             </CardActions>
           </Card>
         </Grid>
